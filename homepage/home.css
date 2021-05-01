@@ -1,0 +1,32 @@
+/* HomePageStyles */
+/* 01/05/2021 */
+/* written by basilisk */
+body{
+				background-color: #ffd295;
+				
+				font-family:monospace;
+				
+				
+}
+h1{
+			
+				text-align:center;
+				font-size:700%;
+				font-family:verdana;				
+	 }
+	 
+.paper{
+		background-image: URL(1.jpg);		
+		background-color:#ffd295;
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position:top;
+		 }
+a{
+				font-size:20pt;
+				color:brown;
+				background-color:#ffd295;
+				
+}
+	 
+
