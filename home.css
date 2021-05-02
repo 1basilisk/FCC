@@ -2,20 +2,20 @@
 /* 01/05/2021 */
 /* written by basilisk */
 body{
-				background-color: #ffd295;
+				background-color: #132030;
 				
 				font-family:monospace;
 				
 				
 }
 h1{
-			
+			 color:A26463;
 				text-align:center;
 				font-size:700%;
 				font-family:verdana;				
 	 }
 	 
-.paper{
+.papyer{
 		background-image: URL(1.jpg);		
 		background-color:#ffd295;
 		background-repeat: no-repeat;
@@ -23,9 +23,19 @@ h1{
 		background-position:top;
 		 }
 a{
-				font-size:20pt;
+				font-size:27pt;
 				color:brown;
-				background-color:#ffd295;
+			
+				color:#80754F;
+				
+}
+ul{
+				list-style:armenian;
+}
+.center{
+				text-align:center;
+				color:#132030;
+				background-color:706A4C;
 				
 }
 	 
