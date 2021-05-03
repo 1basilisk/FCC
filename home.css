@@ -9,10 +9,13 @@ body{
 				
 }
 h1{
-			 color:A26463;
+		/*	 color:A26463;*/
 				text-align:center;
+				color:132030;
 				font-size:700%;
-				font-family:verdana;				
+				font-family:verdana;	
+				background-color:#678;	
+				
 	 }
 	 
 .papyer{
@@ -25,7 +28,7 @@ h1{
 a{
 				font-size:27pt;
 				color:brown;
-			
+			 text-decoration:none;
 				color:#80754F;
 				
 }
@@ -35,7 +38,7 @@ ul{
 .center{
 				text-align:center;
 				color:#132030;
-				background-color:706A4C;
+				background-color:#000000;
 				
 }
 	 
