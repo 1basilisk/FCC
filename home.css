@@ -2,44 +2,57 @@
 /* 01/05/2021 */
 /* written by basilisk */
 body{
-				background-color: #132030;
+				background-color: #212121;				
+				font-family:'Reenie Beanie',cursive;
 				
-				font-family:monospace;
+				}
 				
-				
-}
 h1{
 		/*	 color:A26463;*/
 				text-align:center;
-				color:132030;
+				color:#000;
 				font-size:700%;
-				font-family:verdana;	
-				background-color:#678;	
+				font-family:'Freckle Face', cursive;				
+			background-color:grey;
 				
 	 }
 	 
-.papyer{
+/* .paper
+   {
 		background-image: URL(1.jpg);		
 		background-color:#ffd295;
 		background-repeat: no-repeat;
 		background-size:cover;
 		background-position:top;
-		 }
-a{
-				font-size:27pt;
-				color:brown;
+		 }*/
+a  
+    {
+     
+     opacity:0.7;
+				font-size:40pt;				
 			 text-decoration:none;
-				color:#80754F;
-				
-}
-ul{
-				list-style:armenian;
-}
-.center{
+				color:#fff;	
+				font-family:'Freckle Face', cursive;				
+	 		}		
+				 						 
+ul 
+   {
+     color:red;
+     list-style:armenian;
+     list-style-position: inside;
+     
+   }
+
+#contact
+     {
 				text-align:center;
-				color:#132030;
-				background-color:#000000;
-				
-}
+				color:#ecdfcf;
+				background-color:#555;
+     }
+a {
+        background-image: linear-gradient(to left,white,red);
+        -webkit-background-clip: text;
+       color: transparent;
+  }
 	 
 
