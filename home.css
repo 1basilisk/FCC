@@ -2,19 +2,25 @@
 /* 01/05/2021 */
 /* written by basilisk */
 body{
-				background-color: #212121;				
+				background-color: #fff;				
 				font-family:'Reenie Beanie',cursive;
-				
+					margin:0px;
+				padding:0px;
 				}
 				
 h1{
 		/*	 color:A26463;*/
 				text-align:center;
-				color:#000;
+				color:#f33;
 				font-size:700%;
 				font-family:'Freckle Face', cursive;				
-			background-color:grey;
-				
+	/*		background-color:#121212;*/
+			background-image: linear-gradient(to left,black,);	
+	/*		text-shadow: 10px 10px 5px black;*/	
+	animation: mymove 3s infinite;
+
+				margin:0px;
+				padding:0px		             
 	 }
 	 
 /* .paper
@@ -27,8 +33,6 @@ h1{
 		 }*/
 a  
     {
-     
-     opacity:0.7;
 				font-size:40pt;				
 			 text-decoration:none;
 				color:#fff;	
@@ -40,19 +44,34 @@ ul
      color:red;
      list-style:armenian;
      list-style-position: inside;
-     
+   /*  text-shadow: 2px 2px 2px black;*/
+     animation: m2 3s infinite;
    }
 
 #contact
      {
 				text-align:center;
 				color:#ecdfcf;
-				background-color:#555;
+				background-color:#000;
+				margin:0px;
+				padding:0px;
+				
      }
 a {
         background-image: linear-gradient(to left,orange,red);
         -webkit-background-clip: text;
        color: transparent;
+  }
+  
+hr{
+				height:10px;
+				background-color:black;
+}
+@keyframes m2{
+				50% {text-shadow: 2px 2px 2px black ;}
+}
+@keyframes mymove {
+  50% {text-shadow: 10px 10px 5px black,  10px 20px 20px brown;}
   }
 	 
 
