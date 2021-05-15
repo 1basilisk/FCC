@@ -1,0 +1,102 @@
+
+body{
+			font-family: 'Big Shoulders Inline Display';
+			background-image: linear-gradient(to right,#eacda3, #d6ae7b);	
+				
+}
+#top{
+				opacity:.7;		
+				border:3px solid black;
+				position:sticky;
+				top:0;
+				background-color:#FFBD82;				
+			 display:flex;
+			 justify-items:center;
+			 
+}
+@media (min-height: 350px){
+#header{
+				opacity:1;
+				font-size:100px;
+				font-family:'Major Mono Display';
+				padding:0px 0px 0px 10px;
+				
+}
+#header-img{
+				margin:10px;	
+				opacity:1;		 
+			 width:100px;
+			 height:100px;
+			 
+			 
+}
+#nav-bar{
+				opacity:1;		
+				display:flex;
+				text-align:justify;
+				
+}
+.nav-link{
+				opacity:1;		
+				width:30%;
+				font-family: 'Big Shoulders Stencil Display';
+				color:maroon;
+				font-size:40px;
+				justify-content:flex-end;
+				text-decoration:none;
+}}
+.news{
+	  padding:0%;
+				
+				box-sizing:border-box;
+				margin:5% 10% 5% 10%;
+				color:#000;
+				width:80%;
+				height:300px;
+				
+}
+#email{
+				margin:5% 10% 5% 10%;
+				width:80%;
+				height:50px;
+			 border:3px solid #FFBD82;
+				box-shadow:10px 10px 20px black;
+				font-size:30px;
+				
+				
+}
+.button{margin:0% 40% 5% 40%;
+				width:20%;
+				height:50px;
+			 border:3px solid red;
+				font-size:30px;
+				font-family:inherit;
+				background: #ffbd82;
+				border:2px groove yellow;
+}
+h1{				font-family: 'Big Shoulders Stencil Display';
+				font-size:75px;
+				text-align:center;
+}
+p{
+				font-size:50px;
+				text-align:justify;
+}
+section{
+				margin:5% 10% 5% 10%;
+				width:80%;
+				height:50px;
+		/*	padding:4% 25% 5% 25%;
+				
+}
+.product {
+				align:center;
+				border:2px solid brown;
+				height:200px;
+				width: auto;
+
+}
+
+				
+
+
