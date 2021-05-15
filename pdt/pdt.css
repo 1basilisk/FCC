@@ -1,6 +1,6 @@
 
 body{
-			font-family: 'Big Shoulders Inline Display';
+			font-family: 'Almendra Display';
 			background-image: linear-gradient(to right,#eacda3, #d6ae7b);	
 				
 }
@@ -39,11 +39,13 @@ body{
 .nav-link{
 				opacity:1;		
 				width:30%;
-				font-family: 'Big Shoulders Stencil Display';
+				font-family: 'Almendra Display';
+				font-weight:900;
 				color:maroon;
 				font-size:40px;
 				justify-content:flex-end;
 				text-decoration:none;
+				
 }}
 .news{
 	  padding:0%;
@@ -62,8 +64,8 @@ body{
 			 border:3px solid #FFBD82;
 				box-shadow:10px 10px 20px black;
 				font-size:30px;
-				
-				
+				font-weight:900;
+	  		font-family: 'Almendra Display';
 }
 .button{margin:0% 40% 5% 40%;
 				width:20%;
@@ -73,14 +75,17 @@ body{
 				font-family:inherit;
 				background: #ffbd82;
 				border:2px groove yellow;
+				font-weight:900;
 }
-h1{				font-family: 'Big Shoulders Stencil Display';
+h1{				font-family: 'Almendra Display';
+font-weight:900;
 				font-size:75px;
 				text-align:center;
 }
 p{
 				font-size:50px;
 				text-align:justify;
+				font-weight:900;
 }
 section{
 				margin:5% 10% 5% 10%;
