@@ -74,13 +74,14 @@ body{
 				font-size:30px;
 				font-family:inherit;
 				background: #ffbd82;
-				border:2px groove yellow;
+				border:2px groove black;
 				font-weight:900;
 }
 h1{				font-family: 'Almendra Display';
 font-weight:900;
 				font-size:75px;
 				text-align:center;
+				background:#ffbd6a
 }
 p{
 				font-size:50px;
@@ -99,6 +100,7 @@ section{
 				border:2px solid brown;
 				height:200px;
 				width: auto;
+				
 
 }
 
