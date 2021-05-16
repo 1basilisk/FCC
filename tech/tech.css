@@ -73,7 +73,7 @@ code{
 
 
 /* mobile */
-@media screen and (max-width:480px){
+@media screen and (max-width:900px){			
 body{
 				display:flex;
 				flex-direction:column;
@@ -82,13 +82,15 @@ body{
 				box-sizing:border-box;
 				}
 #navbar{
-				position:block;
-				width:100%;
+				display:block;
+				position:relative;
+				width:100vw;
 				}
 #main-doc{
-				position:block;			
-				width:100%;
-				top:24vh;			
+				position:relative;
+				display:block;			
+				width:100vw;
+				
 }
 #topic{
 				font-family: 'Sedgwick Ave Display', cursive;
