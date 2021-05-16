@@ -14,7 +14,8 @@
 				color:red;
 				font-size:700%;
 				font-family:'Freckle Face', cursive;
-				background-image: linear-gradient(to right,#fc0428, #004e9f);
+				background-image: url(text.jpg);
+		background-position:bottom;
      -webkit-background-clip: text;
      color: transparent;
 }
