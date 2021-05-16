@@ -7,47 +7,35 @@
 				margin:0;
 				padding:0;
 }
-
-}
-
-@media screen and (max-width:480px){
 body{
 				background:#cccccc;
 				font-size:2.5vh;
+				display:flex;
 				box-sizing:border-box;
-				}
-#topic{
-				font-family: 'Sedgwick Ave Display', cursive;
 				text-align:center;
-				background:#eee;
-				color:#1c4320;
-				font-size:5vh;
-				display:fixed;
 }
-ul.nav{
-				overflow:scroll;
-				height:15vh;
+#navbar{
+				width:40%;
+				position:fixed;
+				left:0;
+				border:2px solid black;
+				height:100%;
+}
+
+
+
+#main-doc{
+				position:absolute;
+				right:0;
+				width:60%;
 				
-}}
-li.nav{
-				position:sticky;
-				top:0;
-			 margin:0% 0% 0% 0%;				
-				text-align:center;
-				background:#ddd;
-				border:1px solid black;
-				list-style:none;
-				align-itmes:flex-end;
 }
+
 a{
-				
+				font-size: 2.5vh;
 				color:#000000;
-				text-decoration:none;
+				text-decoration:none;			
 }
-
- 
-
-
 
 .main-section{
 				background:#cccccc;
@@ -56,10 +44,7 @@ a{
 				position:sticky;
 				top:0;
 				color:#1c4320;
-				border:1px solid #1c4320;
-				
-				
-				
+				border:1px solid #1c4320;				
 }
 header{
 				background:#999;
@@ -70,12 +55,14 @@ p,li{
 			 font-size:1.5vh;
 			 opacity:1;
 			 color:black;
-			 padding:1% 5% 0% 5%;
+			 padding:1% 5% 1% 5%;
+			 border:2px solid black;
+			 list-style:none;
 			 
 }
 code{
 				display:block;
-				text-align:left;
+				text-align:center;
 				margin:0px;
 				padding:3px;
 				font-size:0.8vh;
@@ -84,23 +71,48 @@ code{
 				color:black;
 }
 
+
+/* mobile */
+@media screen and (max-width:480px){
 body{
+				display:flex;
+				flex-direction:column;
 				background:#cccccc;
 				font-size:2.5vh;
-				display:flex;
 				box-sizing:border-box;
-}
+				}
 #navbar{
-				width:20%;
-				position:fixed;
-				left:0;
-}
+				position:block;
+				width:100%;
+				}
 #main-doc{
-				position:absolute;
-				right:0;
-				width:80%;
-				
+				position:block;			
+				width:100%;
+				top:24vh;			
 }
+#topic{
+				font-family: 'Sedgwick Ave Display', cursive;
+				text-align:center;
+				background:#eee;
+				color:#1c4320;
+				font-size:5vh;
+				display:fixed;				
+}
+ul.nav{
+				overflow:scroll;
+				height:15vh;				
+}
+li.nav{
+				position:sticky;
+				top:0;
+			 margin:0% 0% 0% 0%;				
+				text-align:center;
+				background:#ddd;
+				border:1px solid black;
+				list-style:none;
+				align-itmes:flex-end;
+}}
+
  
  
  
@@ -110,3 +122,4 @@ body{
  
  
  
+

@@ -1,7 +1,8 @@
-.<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 				<title>Python</title>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<link rel="stylesheet" href="tech.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
@@ -81,7 +82,7 @@ look at writing this program on your particular system in just a moment</p>
 									<a id="var"></a>
 									<p>Let’s try using a variable in hello_world.py. Add a new line at the beginning
 of the ile, and modify the second line:</p>
-<code>message = "Hello Python world!"
+<code>message = "Hello Python world!" <br>
 print(message)</code>
 									<p>We’ve added a variable named message. Every variable holds a value, which
 is the information associated with that variable. In this case the value is the
@@ -145,12 +146,12 @@ most cars should be printed in title case. However, the value 'bmw' should
 be printed in all uppercase. The following code loops through a list of car
 names and looks for the value 'bmw'. Whenever the value is 'bmw', it’s printed
 in uppercase instead of title case:</p>
-									<code>age = 17
-u if age >= 18:
-print("You are old enough to vote!")
-print("Have you registered to vote yet?")
-v else:
-print("Sorry, you are too young to vote.")
+									<code>age = 17 <br>
+ if age >= 18: <br>
+print("You are old enough to vote!")<br>
+print("Have you registered to vote yet?")<br>
+else: <br>
+print("Sorry, you are too young to vote.") <br>
 print("Please register to vote as soon as you turn 18!")</code>
 									<p></p>
 					</section>
@@ -166,11 +167,11 @@ print("Please register to vote as soon as you turn 18!")</code>
 Syntax errors are usually easy to ind, but there are a few gotchas. Whitespace
 errors can be tricky because spaces and tabs are invisible and we are used to
 ignoring them.</p>
-									<code>>>> x = 5
->>> y = 6
-File "<stdin>", line 1
-y = 6
-^
+									<code> x = 5<br>
+ y = 6<br>
+File stdin line 1<br>
+y = 6<br>
+
 IndentationError: unexpected indent</code>
 									<p>In this example, the problem is that the second line is indented by one space. But
 the error message points to y, which is misleading. In general, error messages
@@ -187,9 +188,9 @@ often not where it was caused.</p>
 									<a id="while"></a>
 									<p>You can use a while loop to count up through a series of numbers. For
 example, the following while loop counts from 1 to 5:</p>
-									<code>prompt = "\nTell me something, and I will repeat it back to you:"
+									<code>prompt = "\nTell me something, and I will repeat it back to you:"<br>
 prompt += "\nEnter 'quit' to end the program. "<br> message = ""
-w while message != 'quit':
+w while message != 'quit':<br>
 message = input(prompt)
 print(message)
 </code>
@@ -233,9 +234,9 @@ You’ll learn how to write certain functions whose primary job is to display
 information and other functions designed to process data and return a
 value or set of values. Finally, you’ll learn to store functions in separate iles
 called modules to help organize your main program iles.</p>
-									<code>u def greet_user():
+									<code>u def greet_user():<br>
  """Display a simple greeting."""
- print("Hello!")
+ print("Hello!")<br>
  greet_user()</code>
 									<p>the keyword def to inform Python that you’re deining a function. This
 is the function deinition, which tells Python the name of the function and, if
@@ -257,15 +258,7 @@ the name of the function, followed by any necessary information in parentheses, 
 function is as simple as entering greet_user(). As expected, it prints Hello!:</p>
 					</section>
 			</main>
-				
-				
-				
-				
-				
-				
-				
-				
-				<!-- tests -->
+					<!-- tests -->
 		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>		
 </body>
 </html>
