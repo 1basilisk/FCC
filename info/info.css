@@ -28,18 +28,19 @@
 				width:100vw;
 				padding:42.5vh 5vh 42.5vh 7vh;
 				border:1px solid black;
-		  background:linear-gradient(to right,#ffafbd , #ffc3a0);
+		 /* background:linear-gradient(to right,#ffafbd , #ffc3a0);*/
+		 background: linear-gradient(to right, #111111 ,#3e3a37);
 }
 h1.head{
 			 font-family:'Ruslan Display';
 			 font-size:15vw;
-			 color:#000;
-			 text-shadow:0px 0px 10px white;
+			 color: #2d2926;
+			 text-shadow:0px 0px 10px black;
 }
 p.header{
 				font-family: 'Ruslan Display', cursive;
 				font-size:5vw;
-				color:#002225;
+				color: white;
 }
 hr{
 				height:5px;
@@ -71,6 +72,7 @@ h1.projects{
 				font-family: 'Sedgwick Ave Display', cursive;
 				font-size:5vh;
 				text-align:center;
+				background: #eee;
 }
 p{
 				text-align:center;
