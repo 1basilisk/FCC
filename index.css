@@ -1,29 +1,27 @@
-/* HomePageStyles */
-/* 01/05/2021 */
-/* written by basilisk */
 body{
-				background-image: linear-gradient(to right,#eacda3, #d6ae7b);				
-				font-family:'Reenie Beanie',cursive;
-					margin:0px;
-				padding:0px;
+				background-image: linear-gradient(to left, #000, #fff);				
+				font-family:'Harry Potter',cursive;
+					
 				}
 				
 h1{
+				box-shadow: 12px 12px 30px black;
 		/*	 color:A26463;*/
+				margin: 100px 0px 0px 0px;
 				text-align:center;
-				color:#f33;
-				font-size:5vh;
-				font-family:'Freckle Face', cursive;				
+				color:#333;
+				font-size:6vh;
+				font-family:'Harry Potter', cursive;				
 	/*		background-color:#121212;*/
-			background-image: linear-gradient(to left,black,);	
-	/*		text-shadow: 10px 10px 5px black;*/	
-	animation: mymove 3s infinite;
+			background-image: linear-gradient(to left,black,white);	
+		text-shadow: 10px 10px 2px #ccc;
+	/*animation: mymove 3s infinite;*/
 
 				margin:0px;
 				padding:0px		             
 	 }
 div{
-				
+				height: 35vh;
 }
 /* .paper
    {
@@ -38,7 +36,7 @@ a
 				font-size:3vh;				
 			 text-decoration:none;
 				color:#fff;	
-				font-family:'Freckle Face', cursive;				
+						
 	 		}		
 				 						 
 ul 
@@ -48,7 +46,7 @@ ul
      list-style:armenian;
      list-style-position: inside;
    /*  text-shadow: 2px 2px 2px black;*/
-     animation: m2 3s infinite;
+     /*animation: m2 3s infinite;*/
    }
 
 #contact
@@ -58,11 +56,15 @@ ul
 				background-color:#000;
 				padding:0px;				
      }
-a {
+/*a {
         background-image: linear-gradient(to left,orange,red);
         -webkit-background-clip: text;
        color: transparent;
-  }
+  }*/
+  
+a{
+				color:#ffc500;
+}
   
 hr{
 				height:10px;
