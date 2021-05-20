@@ -12,7 +12,7 @@ h1{
 		/*	 color:A26463;*/
 				text-align:center;
 				color:#f33;
-				font-size:5vh;
+				font-size:7vh;
 				font-family:'Freckle Face', cursive;				
 	/*		background-color:#121212;*/
 			background-image: linear-gradient(to left,black,);	
@@ -22,7 +22,9 @@ h1{
 				margin:0px;
 				padding:0px		             
 	 }
-	 
+div{
+				height:35vh;
+}
 /* .paper
    {
 		background-image: URL(1.jpg);		
@@ -40,7 +42,8 @@ a
 	 		}		
 				 						 
 ul 
-   {
+   { 
+     font-size:2vh;
      color:red;
      list-style:armenian;
      list-style-position: inside;
