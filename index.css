@@ -1,5 +1,5 @@
 body{
-				background-image: linear-gradient(to left, #000, #fff);				
+				background-image: linear-gradient(to left, yellow, orange);				
 				font-family:'Harry Potter',cursive;
 					
 				}
@@ -8,13 +8,14 @@ h1{
 				box-shadow: 12px 12px 30px black;
 		/*	 color:A26463;*/
 				margin: 100px 0px 0px 0px;
+				padding: 1vh;
 				text-align:center;
 				color:#333;
 				font-size:6vh;
 				font-family:'Harry Potter', cursive;				
 	/*		background-color:#121212;*/
-			background-image: linear-gradient(to left,black,white);	
-		text-shadow: 10px 10px 2px #ccc;
+			background-image: linear-gradient(to right,orange, yellow);	
+		/*text-shadow: 10px 10px 2px #ccc;
 	/*animation: mymove 3s infinite;*/
 
 				margin:0px;
@@ -35,11 +36,10 @@ a
     {
 				font-size:3vh;				
 			 text-decoration:none;
-				color:#fff;	
-						
+				color:blue;							
 	 		}		
 				 						 
-ul 
+ul
    { 
      font-size:2vh;
      color:red;
@@ -63,18 +63,20 @@ ul
   }*/
   
 a{
-				color:#ffc500;
+				color:red;
 }
   
 hr{
 				height:10px;
 				background-color:black;
 }
+
 @keyframes m2{
 				50% {text-shadow:1px 1px 1px black ;}
 }
+
 @keyframes mymove {
-  50% {text-shadow: 5px 5px 2px black,  7px 7px 7px brown;}
-  }
+  50% {text-shadow: 5px 5px 2px black,  7px 7px 7px brown;}  
+}
 	 
 
